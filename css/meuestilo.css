@@ -1,0 +1,69 @@
+.content-card {
+    background: #fff;
+    border-radius: 18px;
+    padding: 32px;
+    margin-bottom: 28px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
+    border-left: 5px solid #2878EB;
+}
+
+.section-label {
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #2878EB;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.content-card p {
+    font-size: 1.08rem;
+    line-height: 1.8;
+    color: #4a4a4a;
+}
+
+.access-box {
+    background: linear-gradient(135deg, #2878EB, #00B9FF);
+    color: #fff;
+    border-radius: 20px;
+    padding: 34px;
+    margin-bottom: 35px;
+    box-shadow: 0 12px 35px rgba(40, 120, 235, .25);
+}
+
+.access-box p {
+    color: #fff;
+    font-size: 1.15rem;
+    margin-bottom: 20px;
+}
+
+.step-item {
+    background: #fff;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .07);
+}
+
+.step-number {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #2878EB;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin-right: 12px;
+}
+
+.tool-image {
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .12);
+    margin-top: 18px;
+    margin-bottom: 12px;
+    max-width: 85%;
+}
