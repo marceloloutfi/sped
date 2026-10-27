@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
     <head>
         <meta charset="utf-8">
-        <title>EntangledFuture Toolkit</title>
+        <title>Cartas de Mediação Tecnológica | EntangledFuture Toolkit</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Free HTML Templates" name="keywords">
-        <meta content="Free HTML Templates" name="description">
+        <meta content="Cartas de Mediação Tecnológica, SpED, pós-fenomenologia, design especulativo, mediação tecnológica" name="keywords">
+        <meta content="Conheça as Cartas de Mediação Tecnológica, uma ferramenta do EntangledFuture Toolkit para reflexão crítica sobre o design sociotécnico. Acesse pela web ou Android." name="description">
     
         <!-- Favicon -->
         <link href="img/favicon.png" rel="icon">
@@ -26,6 +26,28 @@
     
         <link href="css/meuestilo.css" rel="stylesheet">
     
+        <style>
+          /* Complementos locais: preservam Bootstrap e a identidade do site. */
+          .cmt-intro { font-size: 1.08rem; line-height: 1.8; }
+          .cmt-stats { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0 4px; }
+          .cmt-stat { border: 1px solid #dce6ed; border-radius: 8px; background: #f7fafc; padding: 12px 18px; flex: 1 1 160px; text-align: center; }
+          .cmt-stat strong { display: block; font-family: Jost, sans-serif; font-size: 1.55rem; color: #153c5b; }
+          .cmt-stat span { font-size: .91rem; color: #526373; }
+          .cmt-access-options { display: flex; flex-wrap: wrap; justify-content: center; gap: 18px; margin-top: 25px; }
+          .cmt-access-option { flex: 1 1 235px; max-width: 330px; background: #fff; color: #263e52; padding: 23px 20px; border-radius: 10px; text-align: center; }
+          .cmt-access-option i { font-size: 2rem; color: #194e79; margin-bottom: 12px; }
+          .cmt-access-option h4 { font-size: 1.2rem; margin-bottom: 9px; }
+          .cmt-access-option p { font-size: .95rem; min-height: 55px; color: #516477; }
+          .cmt-access-option .btn { white-space: normal; }
+          .cmt-access-option .android-btn { background: #183e5d; border-color: #183e5d; color: white; }
+          .cmt-access-option .android-btn:hover { background: #0e2e47; color: white; }
+          .cmt-note { font-size: .85rem; opacity: .86; margin: 14px 0 0; }
+          .cmt-context { border-left: 4px solid #1b6795; padding: 12px 18px; background: #f4f8fb; margin-top: 20px; }
+          .cmt-step-images { display: flex; flex-wrap: wrap; justify-content: center; align-items: start; gap: 16px; margin: 15px auto; }
+          .cmt-step-images figure { flex: 1 1 180px; max-width: 270px; text-align: center; margin: 0; }
+          .cmt-step-images img { max-height: 290px; object-fit: contain; }
+          .cmt-step-images figcaption { font-size: .87rem; color: #5c6a78; margin-top: 7px; }
+          @media (max-width: 576px) { .cmt-access-option { max-width: none; } .cmt-access-option p { min-height: 0; } }
         </style>
     </head>
     
@@ -73,7 +95,7 @@
 
 
     <!-- Header Start -->
-    <div class="jumbotron jumbotron-fluid page-header position-relative overlay-bottom" style="margin-bottom: 90px;">
+    <div class="jumbotron jumbotron-fluid page-header position-relative overlay-bottom" style="margin-bottom: 45px;">
         <div class="container text-center py-2">
             <h1 class="text-white display-4">Cartas de Mediação Tecnológica</h1>
             </div>
@@ -90,6 +112,11 @@
         <p>
             As Cartas de Mediação Tecnológica são uma ferramenta de apoio à reflexão crítica sobre o design de soluções tecnológicas. Elas ajudam equipes a analisar como uma tecnologia pode interferir nas percepções, ações, relações e decisões dentro de um ecossistema sociotécnico.
         </p>
+        <div class="cmt-stats" aria-label="Características da ferramenta">
+            <div class="cmt-stat"><strong>7</strong><span>tipos de mediação</span></div>
+            <div class="cmt-stat"><strong>35</strong><span>perguntas reflexivas</span></div>
+            <div class="cmt-stat"><strong>2</strong><span>formas de acesso</span></div>
+        </div>
     </div>
     
     <div class="content-card">
@@ -120,6 +147,11 @@
     </div>
     
     <div class="content-card">
+        <span class="section-label">Fundamentação da ferramenta</span>
+        <p>Inspiradas na Teoria da Mediação Tecnológica, da tradição Pós-Fenomenológica, as cartas integram o EntangledFuture Toolkit e apoiam a abordagem Speculative Entangled Design (SpED). Elas convidam a examinar não apenas a funcionalidade de uma solução, mas também como tecnologias, pessoas e outros elementos participam da constituição das práticas sociotécnicas.</p>
+    </div>
+
+    <div class="content-card">
         <span class="section-label">Como devem ser usadas?</span>
         <p>
             Devem ser utilizadas de forma colaborativa por times de desenvolvimento, inovação, produto, pesquisa e ensino. Cada carta convida o grupo a refletir sobre como a solução projetada interfere nas relações entre pessoas, tecnologias, instituições, dados, regras e outros atores do ecossistema.
@@ -130,19 +162,36 @@
         </p>
     </div>
     
-    <div class="access-box text-center">
+    <!-- Acesso: a versão Android usa temporariamente a busca na loja.
+         Substitua a URL de busca pelo link direto do app quando disponível:
+         https://play.google.com/store/apps/details?id=SEU_ID_DO_APLICATIVO -->
+    <div class="access-box text-center" id="acessar-cartas">
         <h3 class="text-white mb-3">Explore as Cartas de Mediação Tecnológica</h3>
-        <p>
-            Utilize o carrossel interativo para provocar reflexões críticas sobre as mediações produzidas pela sua solução tecnológica.
-        </p>
-    
-        <a href="https://especule-21835.web.app/" 
-           class="btn btn-light btn-lg px-5 py-3 font-weight-bold" 
-           target="_blank">
-            Abrir ferramenta
-        </a>
+        <p>Escolha como deseja utilizar a ferramenta e comece a explorar as mediações tecnológicas.</p>
+        <div class="cmt-access-options">
+            <div class="cmt-access-option">
+                <i class="fas fa-desktop" aria-hidden="true"></i>
+                <h4>Versão Web</h4>
+                <p>Utilize o carrossel interativo diretamente no navegador, sem instalar nada.</p>
+                <a href="https://especule-21835.web.app/" class="btn btn-primary btn-lg btn-block font-weight-bold"
+                   target="_blank" rel="noopener noreferrer" aria-label="Abrir Cartas de Mediação Tecnológica na web">
+                    <i class="fas fa-external-link-alt mr-2" aria-hidden="true" style="font-size:1rem;color:inherit;margin:0;"></i>Abrir ferramenta
+                </a>
+            </div>
+            <div class="cmt-access-option">
+                <i class="fab fa-android" aria-hidden="true"></i>
+                <h4>Aplicativo Android</h4>
+                <p>Encontre no Google Play para utilizá-lo em seu dispositivo Android.</p>
+                <a href="https://play.google.com/store/apps/details?id=br.com.cmt&pcampaignid=web_share"
+                   class="btn android-btn btn-lg btn-block font-weight-bold" target="_blank" rel="noopener noreferrer"
+                   aria-label="Procurar Cartas de Mediação Tecnológica no Google Play">
+                    <i class="fab fa-google-play mr-2" aria-hidden="true" style="font-size:1rem;color:inherit;margin:0;"></i>Acessar Ferramenta
+                </a>
+            </div>
+        </div>
+        <p class="cmt-note text-white">Disponível para uso na web e em dispositivos Android.</p>
     </div>
-    
+
     <div class="content-card">
         <span class="section-label">Como usar?</span>
     
@@ -154,7 +203,7 @@
             <p><span class="step-number">2</span> Navegue pelo carrossel e selecione um dos tipos de mediação tecnológica.</p>
 
             <div class="text-center">
-                <img class="img-fluid tool-image" src="img/carta_navegacao.png" alt="Relacionar atores na Lousa Sociotécnica">
+                <img class="img-fluid tool-image" loading="lazy" src="img/carta_navegacao.png" alt="Navegação pelo carrossel de Cartas de Mediação Tecnológica">
             </div>
 
         </div>
@@ -162,12 +211,9 @@
         <div class="step-item">
             <p><span class="step-number">3</span> Clique na carta para gerar aleatoriamente uma pergunta relacionada à mediação escolhida.</p>
 
-            <div class="text-center">
-                <img class="img-fluid tool-image" src="img/carta_verso.png" alt="Relacionar atores na Lousa Sociotécnica">
-            </div>
-
-            <div class="text-center">
-                <img class="img-fluid tool-image" src="img/carta_frente.png" alt="Relacionar atores na Lousa Sociotécnica">
+            <div class="cmt-step-images">
+                <figure><img class="img-fluid tool-image" src="img/carta_verso.png" alt="Verso de uma Carta de Mediação Tecnológica" loading="lazy"><figcaption>Visualize a carta</figcaption></figure>
+                <figure><img class="img-fluid tool-image" src="img/carta_frente.png" alt="Frente de uma Carta de Mediação Tecnológica" loading="lazy"><figcaption>Explore a pergunta reflexiva</figcaption></figure>
             </div>
 
 
@@ -202,7 +248,7 @@
                 </p>
             </div>
             <div class="col-md-6 text-center text-md-right">
-                <p class="m-0">Criado por <a class="text-white">Marcelo Soares Loutfi.</a> Distribuído por <a class="text-white" href="https://salt.uniriotec.br/" target="_blank">SaLT</a></a>
+                <p class="m-0">Criado por <a class="text-white">Marcelo Soares Loutfi.</a> Distribuído por <a class="text-white" href="https://salt.uniriotec.br/" target="_blank" rel="noopener noreferrer">SaLT</a>
                 </p>
             </div>
         </div>
