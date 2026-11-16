@@ -1,110 +1,11 @@
 <!DOCTYPE html>
-
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-<meta charset="utf-8"/>
-<title>Colaborações PROFIX-RJ | SpED</title>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="Free HTML Templates" name="keywords"/>
-<meta content="Rede de colaborações científicas do projeto SpED submetido ao PROFIX-RJ, FAPERJ nº 34/2026." name="description"/>
-<!-- Favicon -->
-<link href="img/favicon.png" rel="icon"/>
-<!-- Google Web Fonts -->
-<link href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&amp;family=Open+Sans:wght@400;600&amp;display=swap" rel="stylesheet"/>
-<!-- Font Awesome -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet"/>
-<!-- Libraries Stylesheet -->
-<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet"/>
-<!-- Customized Bootstrap Stylesheet -->
-<link href="css/style.css" rel="stylesheet"/>
-<link href="css/meuestilo.css" rel="stylesheet"/>
-
+    <meta charset="UTF-8">
+    <script>
+        window.location.replace("/colaboracoes-profix.html");
+    </script>
 </head>
 <body>
-<!-- Topbar Start -->
-<div class="container-fluid bg-dark">
-<div class="row py-2 px-lg-5">
-<div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
-<div class="d-inline-flex align-items-center text-white">
-<small><i class="fa fa-phone-alt mr-2"></i>(21) 99468-1622</small>
-<small class="px-3">|</small>
-<small><i class="fa fa-envelope mr-2"></i>marcelo.loutfi@unirio.br</small>
-</div>
-</div>
-</div>
-</div>
-<!-- Topbar End -->
-<!-- Navbar Start -->
-<div class="container-fluid p-0">
-<nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
-<button class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button">
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
-<div class="navbar-nav mx-auto py-0">
-<a class="nav-item nav-link" href="index.html">Home</a>
-<a class="nav-item nav-link" href="demonstracao.html">Demonstração</a>
-<div class="nav-item dropdown">
-<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">SpED</a>
-<div class="dropdown-menu m-0">
-<a class="dropdown-item" href="toolkit.html">Toolkit</a>
-<a class="dropdown-item" href="sef.html">SEF</a>
-<a class="dropdown-item" href="sped.html">SpED</a>
-</div>
-</div>
-<a class="nav-item nav-link" href="publicacoes.html">Publicações</a>
-<a class="nav-item nav-link" href="contato.html">Contato</a><a class="nav-item nav-link active" href="colaboracoes-profix.html">Colaborações PROFIX</a>
-</div>
-</div>
-</nav>
-</div>
-<!-- Navbar End -->
-<!-- Header Start -->
-<div class="jumbotron jumbotron-fluid page-header position-relative overlay-bottom" style="margin-bottom: 48px;"><div class="container text-center py-4"><h1 class="text-white display-4">Colaborações Científicas</h1><p class="text-white mb-0">Projeto SpED · PROFIX-RJ · FAPERJ nº 34/2026</p></div></div>
-<style>
-.profix-wrap{--ink:#172d46;--blue:#164c78;--gold:#e7aa38;color:#35485b}.profix-wrap h2,.profix-wrap h3{color:var(--ink)}.profix-intro{max-width:940px;margin:auto}.profix-kicker{font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#bd8421}.profix-lead{font-size:1.1rem;line-height:1.85}.profix-panel{background:#f5f8fb;border-left:4px solid var(--gold);padding:25px 30px}.profix-card{background:#fff;border:1px solid #e5eaf0;box-shadow:0 7px 25px rgba(20,47,75,.055);height:100%;padding:25px;border-radius:5px}.profix-card h3{font-size:1.2rem;margin-bottom:4px}.profix-aff{color:#2c6a91;font-size:.9rem;font-weight:700;margin-bottom:14px}.profix-card p{line-height:1.65}.profix-chip{font-size:.72rem;color:#516679;background:#edf3f7;border-radius:20px;padding:5px 11px;display:inline-block;margin-bottom:14px}.profix-rule{height:3px;width:48px;background:#e7aa38;margin:14px 0 24px}.profix-action{background:#163a59;color:#fff;padding:40px;border-radius:5px}.profix-action h2{color:#fff}.profix-small{font-size:.88rem}.profix-card a{font-weight:600}@media(max-width:767px){.profix-action{padding:26px}.profix-panel{padding:20px}}
-</style>
-<main class="profix-wrap">
-<section class="container pb-4"><div class="profix-intro text-center"><div class="profix-kicker mb-3">Redes e colaborações nacionais e internacionais</div><p class="profix-lead">O projeto <strong>Speculative Entangled Design: Aplicabilidade, Adaptabilidade e Transferibilidade em Contextos Organizacionais e Institucionais</strong> busca ampliar a investigação do SpED em diferentes contextos, reunindo interlocutores acadêmicos com experiências complementares em Sistemas de Informação, Interação Humano-Computador, design e estudos sociotécnicos.</p></div></section>
-<section class="container py-4"><div class="profix-panel"><h3 class="mb-3">Sobre o projeto PROFIX-RJ</h3><p>Proposta vinculada ao <strong>Programa de Pós-Graduação em Informática (PPGI/UNIRIO)</strong>, apresentada ao <strong>Edital FAPERJ nº 34/2026</strong>, com duração prevista de <strong>48 meses</strong>. A pesquisa prevê ciclos de pesquisa-ação em pelo menos três contextos organizacionais ou institucionais, com avaliação da aplicabilidade, adaptabilidade e transferibilidade do SpED.</p><p class="mb-0"><strong>Proponente:</strong> Prof. Dr. Marcelo Soares Loutfi   |   <strong>Supervisor:</strong> Prof. Dr. Sean Wolfgand Matsui Siqueira</p></div></section>
-<section class="container py-5"><div class="profix-kicker">Rede nacional</div><h2>Colaborações no Brasil</h2><div class="profix-rule"></div><div class="row">
-<div class="col-lg-6 mb-4"><article class="profix-card"><span class="profix-chip">Aplicações interdisciplinares</span><h3>Profa. Dra. Sílvia Amélia Bim</h3><div class="profix-aff">Universidade Tecnológica Federal do Paraná (UTFPR)</div><p>Utiliza o SpED em atividades relacionadas à Educação Física, oferecendo possibilidades para investigar a abordagem em contextos interdisciplinares.</p></article></div>
-<div class="col-lg-6 mb-4"><article class="profix-card"><span class="profix-chip">Pesquisa e experimentação</span><h3>Prof. Dr. Saul Delabrida</h3><div class="profix-aff">Universidade Federal de Ouro Preto (UFOP)</div><p>Interlocução científica potencial para estudos e atividades de experimentação tecnológica relacionados ao projeto.</p></article></div>
-<div class="col-lg-6 mb-4"><article class="profix-card"><span class="profix-chip">Interação e design</span><h3>Prof. Dr. Roberto Pereira</h3><div class="profix-aff">Universidade Federal do Paraná (UFPR)</div><p>Possível contribuição na integração teórica e metodológica com a abordagem Socially-Aware Design (SAwD).</p><a class="btn btn-outline-primary btn-sm" href="CARTA_ROBERTO.pdf" target="_blank" rel="noopener noreferrer"><i class="far fa-file-pdf mr-2"></i>Consultar carta de interesse</a></article></div>
-<div class="col-lg-6 mb-4"><article class="profix-card"><span class="profix-chip">Outros interlocutores</span><h3>Rede de pesquisadores nacionais</h3><div class="profix-aff">Instituições e grupos de pesquisa brasileiros</div><p>O projeto também contempla diálogos científicos com pesquisadores como Renata, Reinaldo Viana, Tadeu Classe, Luciana Zaina e Yuska, sujeitos à definição das atividades e à confirmação das respectivas participações.</p></article></div>
-</div></section>
-<section class="container-fluid py-5" style="background:#f5f8fb"><div class="container"><div class="profix-kicker">Rede internacional</div><h2>Colaborações internacionais</h2><div class="profix-rule"></div><div class="row">
-<div class="col-lg-6 mb-4"><article class="profix-card"><span class="profix-chip">Estados Unidos · colaboração internacional</span><h3>Profa. Dra. Huatong Sun</h3><div class="profix-aff">University of Washington Tacoma (Estados Unidos)</div><p>Interlocução relacionada à utilização de instrumentos do SpED em oficinas internacionais, incluindo experiências no Canadá e em Macau, e à investigação de práticas de design em diferentes contextos culturais.</p><a class="btn btn-outline-primary btn-sm" href="CARTA_HUATONG.pdf" target="_blank" rel="noopener noreferrer"><i class="far fa-file-pdf mr-2"></i>Consultar carta de interesse</a></article></div>
-<div class="col-lg-6 mb-4"><article class="profix-card"><span class="profix-chip">Países Baixos · colaboração em perspectiva</span><h3>Dra. Doenja Oogjes</h3><div class="profix-aff">Eindhoven University of Technology — TU/e (Países Baixos)</div><p>Possibilidades de cooperação em <em>more-than-human design</em>, ampliando o diálogo entre design, agência não humana e perspectivas pós-antropocêntricas. O interesse inicial não equivale a parceria formalizada.</p></article></div>
-</div></div></section>
-
-<section class="container pb-5"><div class="profix-action text-center"><h2 class="mb-3">Uma rede aberta a diferentes perspectivas</h2><p class="mb-4">A cooperação científica busca fortalecer o aperfeiçoamento do Sociotechnical Entanglement Framework (SEF), do EntangledFuture Toolkit e dos métodos de investigação do SpED.</p><a class="btn btn-light px-4 py-3 mr-2 mb-2" href="sped.html">Conheça o SpED</a><a class="btn btn-outline-light px-4 py-3 mb-2" href="contato.html">Entre em contato</a></div><p class="profix-small text-muted mt-3">Esta página apresenta uma rede de interlocução científica associada à proposta PROFIX-RJ. A participação de cada pesquisador depende de sua anuência e da definição posterior das atividades. A submissão ao edital não implica aprovação ou concessão de financiamento.</p></section>
-</main>
-<div class="container-fluid position-relative overlay-top bg-dark text-white-50 py-5" style="margin-top: 90px;"></div>
-<div class="container-fluid bg-dark text-white-50 border-top py-4" style="border-color: rgba(256, 256, 256, .1) !important;">
-<div class="container">
-<div class="row">
-<div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
-<p class="m-0">Copyright © <a class="text-white" href="#">EntangledFuture Toolkit</a>. Todos os direitos reservados.</p>
-</div>
-<div class="col-md-6 text-center text-md-right">
-<p class="m-0">Criado por <a class="text-white">Marcelo Soares Loutfi.</a> Distribuído por <a class="text-white" href="https://salt.uniriotec.br/" target="_blank">SaLT</a></p>
-</div>
-</div>
-</div>
-</div>
-<!-- Footer End -->
-<!-- Back to Top -->
-<a class="btn btn-lg btn-primary rounded-0 btn-lg-square back-to-top" href="#"><i class="fa fa-angle-double-up"></i></a>
-<!-- JavaScript Libraries -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-<script src="lib/easing/easing.min.js"></script>
-<script src="lib/waypoints/waypoints.min.js"></script>
-<script src="lib/counterup/counterup.min.js"></script>
-<script src="lib/owlcarousel/owl.carousel.min.js"></script>
-<!-- Template Javascript -->
-<script src="js/main.js"></script>
 </body>
 </html>
